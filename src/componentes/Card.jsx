@@ -6,7 +6,7 @@ import './carrusel/Carrusel'
 
 
 function Card(props) {
-const { id, nombreProducto, precio,/* imagen*/} = props;
+const { id, nombreProducto, precio,imagen} = props;
 
   // Función para formatear el precio a una cadena con punto como separador de miles
   const formatPrecio = (amount) => {
@@ -18,7 +18,7 @@ const { id, nombreProducto, precio,/* imagen*/} = props;
     <div className="card">
     
       <p>{nombreProducto}</p>
-      {/* <img src={imagen} alt={`Consola ${nombreProducto}`} /> */}
+      <img src={imagen} alt={`Consola ${nombreProducto}`} />
       <p>{formatPrecio(precio)}</p>
       <Boton id={id} />
       
