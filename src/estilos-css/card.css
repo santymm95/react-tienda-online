@@ -1,0 +1,25 @@
+
+.card {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.539);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+   
+    img{
+    width: 180px;
+    height: 150px;
+    margin: auto;
+  }
+ 

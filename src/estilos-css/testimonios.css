@@ -1,0 +1,73 @@
+/* Estilos para el componente de tarjeta de testimonios */
+.contenedor-testimonios {
+    display: flex;
+    padding: 50px 0px;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en dispositivos pequeños */
+    justify-content: space-around; /* Alinea las tarjetas en el centro */
+  }
+  
+  .card-testimonios {
+    width: 29%;
+    height: 180px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ececec;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    box-sizing: border-box; /* Evita que el padding afecte el tamaño total */
+  }
+  
+  /* Estilos específicos para dispositivos móviles */
+  @media screen and (max-width: 768px) {
+    .card-testimonios {
+      width: 100%;
+      height: 200px; /* Ajusta el ancho para dispositivos más pequeños */
+    }
+  }
+  
+  .avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .card-testimonios p,
+  .avatar p,
+  .textos-opiniones p,
+  .opinion {
+    font-size: 12px;
+  }
+  
+  .avatar p {
+    font-size: 15px;
+  }
+  
+  .textos-opiniones {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .textos-opiniones p {
+    font-size: 12px;
+    margin: 10px;
+    padding: 0;
+  }
+  
+  .card-testimonios:hover {
+    transform: scale(1.05);
+  }
+  
+  .foto-avatar {
+    width: 30px;
+    height: auto;
+  }
+  
+  p {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Otros estilos según sea necesario */
+  

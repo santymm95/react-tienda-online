@@ -1,0 +1,30 @@
+/* Carrusel.css */
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-item{
+  height: 450px;
+}
+ 
+.carousel-item img:hover{
+    transform: scale(1.0);
+}
+
+.carousel-caption h5{
+  color: white;
+  font-weight: 800;
+}
+.carousel-caption p{
+  color: white;
+  font-weight: 800;
+}
+
+
+ 

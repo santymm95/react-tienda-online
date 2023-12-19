@@ -1,0 +1,24 @@
+/* ubicacion.css */
+
+.ubicacion {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 400px; /* ajusta según tus necesidades */
+    margin: 0 auto; /* centra el contenido */
+  }
+
+  .ubicacion h2{
+    padding: 30px;
+  }
+  
+  /* Agrega un estilo adicional para el iframe en dispositivos móviles */
+  @media only screen and (max-width: 600px) {
+    .ubicacion iframe {
+      width: 100%;
+      height: 250px; /* ajusta según tus necesidades */
+    }
+  }
+  

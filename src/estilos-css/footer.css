@@ -1,0 +1,37 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333333a5;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    
+  }
+
+  .footer-column{
+
+    width: 100%;
+    border-bottom: 1px solid white;
+  }
+  
+  .footer p{
+    font-size: 16px;
+  }
+  
+ 
+  
+  
+  
+  
+  
+  
+   
+  
+  /* Media query para dispositivos con un ancho máximo de 600px */
+  @media (max-width: 600px) {
+    .footer-column {
+      flex: 1 0 100%; /* Las columnas se apilan en dispositivos pequeños */
+      margin-right: 0;
+    }
+  }
+  

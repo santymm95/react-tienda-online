@@ -1,0 +1,50 @@
+/* Estilos para el componente de productos más vendidos */
+.mas-vendidos {
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.lista-productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.producto {
+  background-image: url('../imagenes/producto01.jpg'); /* Corrige la ruta de la imagen */
+  background-position: center ; /* Centra horizontal y verticalmente */
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+  width: 45%;
+  height: 180px; /* Ajusta el alto para dispositivos medianos */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+
+/* Estilos específicos para dispositivos más grandes */
+@media screen and (max-width: 768px) {
+  .producto {
+    width: 90%; /* Ajusta el ancho para dispositivos grandes */
+  }
+}
+
+ 
+
+.producto h3 {
+  margin-top: 10px;
+}
+
+.producto p {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilos adicionales según sea necesario */

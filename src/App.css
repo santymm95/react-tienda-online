@@ -1,0 +1,22 @@
+.App{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+ 
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #09c184;
+}
+
+.App h2{
+   margin-top: 40px;
+}
